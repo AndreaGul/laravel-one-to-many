@@ -48,6 +48,15 @@
     <label for="link_github" class="form-label">link_github</label>
     <input type="text" class="form-control" id="link_github" value="{{old('link_github')}}"  name="link_github">
   </div>
+  <div class="col-12">
+    <label for="type_id" class="form-label">Tipologia</label>
+    <select class="form-select " aria-label="Default select example" name="type_id">
+      <option selected>Selezionane uno</option>
+      @foreach ($types as $type)
+        <option value="{{$type->id}}">{{$type->title}}</option>
+      @endforeach
+    </select>
+  </div>
   
   
   <div class="col-12">

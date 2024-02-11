@@ -31,6 +31,7 @@ class StoreProjectRequest extends FormRequest
             'contributors' => 'nullable|string|max:300',
             'lang' => 'nullable|string|max:60',
             'link_github' => 'nullable|url',
+            
         ];
     }
 }
