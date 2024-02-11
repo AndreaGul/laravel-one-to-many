@@ -9,6 +9,10 @@
         <li>Ultimo commit: {{$project->last_update}}</li>
         <li>Linguaggi di programmazione: {{$project->lang}}</li>
         <li>Link: {{$project->link_github}}</li>
+        @if (isset($project->type->title))
+          <li>Categoria: {{$project->type->title}}</li>
+        @endif
+        
         
   </ul>
 @endsection
