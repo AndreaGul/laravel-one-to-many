@@ -20,7 +20,7 @@ Questa entità rappresenta la tipologia di progetto ed è in relazione one to ma
 I task da svolgere sono diversi, ma alcuni di essi sono un ripasso di ciò che abbiamo fatto nelle lezioni dei giorni scorsi:
 
 -   [x]creare la migration per la tabella types
--   []creare il model Type
+-   [x]creare il model Type
 -   []creare la migration di modifica per la tabella projects per aggiungere la chiave esterna
 -   []aggiungere ai model Type e Project i metodi per definire la relazione one to many
 -   []visualizzare nella pagina di dettaglio di un progetto la tipologia associata, se presente
