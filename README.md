@@ -19,7 +19,7 @@ Aggiungiamo una nuova entità Type.
 Questa entità rappresenta la tipologia di progetto ed è in relazione one to many con i progetti.
 I task da svolgere sono diversi, ma alcuni di essi sono un ripasso di ciò che abbiamo fatto nelle lezioni dei giorni scorsi:
 
--   []creare la migration per la tabella types
+-   [x]creare la migration per la tabella types
 -   []creare il model Type
 -   []creare la migration di modifica per la tabella projects per aggiungere la chiave esterna
 -   []aggiungere ai model Type e Project i metodi per definire la relazione one to many
